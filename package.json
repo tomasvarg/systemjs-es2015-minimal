@@ -1,0 +1,23 @@
+{
+  "name": "systemjs-es2015-minimal",
+  "version": "0.0.1",
+  "description": "A minimal SystemJS module loader setup with ES2015 support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "systemjs",
+    "babel",
+    "es2015",
+    "starter",
+    "sample"
+  ],
+  "author": "Tomas Varga <tomas.varga.cz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "promise-polyfill": "^6.0.2",
+    "systemjs": "^0.20.18",
+    "systemjs-plugin-babel": "0.0.25"
+  }
+}
